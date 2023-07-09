@@ -3,6 +3,8 @@
 sudo apt update
 sudo apt install -y \
         build-essential \
+        docker.io \
+        docker-compose \
         zlib1g-dev \
         libncurses5-dev \
         libgdbm-dev \

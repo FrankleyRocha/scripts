@@ -2,6 +2,10 @@
 
 sudo apt update
 sudo apt install -y \
+        vim \
+        wget \
+        curl \
+        git \
         build-essential \
         docker.io \
         docker-compose \
@@ -11,21 +15,18 @@ sudo apt install -y \
         libnss3-dev \
         libssl-dev \
         libreadline-dev \
-        libffi-dev \
-        wget \
-        curl \
-        git \
+        libffi-dev \        
         libbz2-dev \
         libsqlite3-dev \
         liblzma-dev \
 	python-tk \
 	python3-tk tk-dev
 
-#curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
-#curl -s "https://get.sdkman.io" | bash
+curl -s "https://get.sdkman.io" | bash
 
-#curl https://pyenv.run | bash
+curl https://pyenv.run | bash
 
 if [ $SHELL = "/bin/zsh" ]
 then

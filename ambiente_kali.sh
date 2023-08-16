@@ -38,3 +38,5 @@ curl https://pyenv.run | bash
         echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
         echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 #fi
+
+sudo apt install ttf-mscorefonts-installer -y

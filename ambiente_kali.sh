@@ -2,6 +2,8 @@
 
 sudo apt update
 sudo apt install -y \
+	zip \
+ 	unzip \
         vim \
         wget \
         curl \

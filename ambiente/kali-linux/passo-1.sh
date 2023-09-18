@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 sudo apt update
 sudo apt install -y \
@@ -33,16 +33,28 @@ curl https://pyenv.run | bash
 
 #if [ $SHELL = "/bin/zsh" ]
 #then
-        # echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-        # echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-        # echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+        echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+        echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+        echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 #else        
         echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
         echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
         echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 #fi
 
+#sdk version
+#nvm -v
+#pyenv -v
+
+#echo 'Feche e reabra o terminal e execute o passo 2:'
+#echo 'curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/passo-2.sh | bash'
+
 source ~/.bashrc
+
+nvm install 16
+pyenv install 3
+pyenv global 3
+sdk install java 17.0.8-oracle
 
 npm install -g @angular/cli
 npm install -g @ionic/cli

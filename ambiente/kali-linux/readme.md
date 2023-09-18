@@ -1,10 +1,13 @@
 # Script instalação de ambiente de desenvolvimento, com:
 
 ## NVM
+https://github.com/nvm-sh/nvm#Intro
 
 ## SDKMAN
+https://sdkman.io/
 
 ## PYENV
+https://github.com/pyenv/pyenv#Installation
 
 ### JDK17, NODEJS 16, PYTHON 3
 

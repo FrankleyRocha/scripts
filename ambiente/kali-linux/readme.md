@@ -30,7 +30,7 @@ https://github.com/apache/cordova-cli#Installation
 ### JHipster
 https://www.jhipster.tech/installation
 
-# PARA INSTALAR EXECUTE:
+### PARA INSTALAR EXECUTE:
 
 ````bash
 sudo apt update

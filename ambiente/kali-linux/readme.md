@@ -12,7 +12,7 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 - PYENV
     - Python 3
 
-## PARA INSTALAR EXECUTE:
+PARA INSTALAR EXECUTE:
 
 ````bash
 sudo apt update

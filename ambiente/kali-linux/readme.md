@@ -40,3 +40,5 @@ sudo apt install -y curl
 ````bash
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/install.sh | bash -il
 ````
+
+* Testado com Kali Linux, possivelmente compativel com sistemas debian like

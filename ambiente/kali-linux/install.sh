@@ -31,26 +31,32 @@ curl -s "https://get.sdkman.io" | bash
 
 curl https://pyenv.run | bash
 
-echo '#PYENV' >> ~/.bashrc
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+if [ $SHELL = "/bin/zsh" ]; then
+    echo '#PYENV' >> ~/.zshrc
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+    echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+    echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 
-echo '#PYENV' >> ~/.zshrc
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+    source ~/.zshrc
+else
+    echo '#PYENV' >> ~/.bashrc
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+    echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+    echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
-source ~/.bashrc
-source ~/.zshrc
+    source ~/.bashrc
+fi
 
 pyenv install 3
 pyenv global 3
 sdk install java 17.0.8-oracle
 nvm install 16
 
-source ~/.bashrc
-source ~/.zshrc
+if [ $SHELL = "/bin/zsh" ]; then
+    source ~/.zshrc
+else
+    source ~/.bashrc
+fi
 
 npm install -g @angular/cli
 npm install -g @ionic/cli

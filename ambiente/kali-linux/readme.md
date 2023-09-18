@@ -10,8 +10,13 @@ https://sdkman.io/
 https://github.com/pyenv/pyenv#Installation
 
 ### Oracle JDK17
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
 ### NODEJS 16
+https://nodejs.org
+
 ### PYTHON 3
+https://www.python.org/
 
 ### Angular CLI
 https://angular.io/cli

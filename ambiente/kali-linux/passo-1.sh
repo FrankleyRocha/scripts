@@ -43,4 +43,4 @@ curl https://pyenv.run | bash
 #fi
 
 echo 'Feche e reabra o terminal e execute o passo 2:'
-echo 'curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/passo-2.sh | bash'
+echo 'curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/passo-2.sh | bash -il'

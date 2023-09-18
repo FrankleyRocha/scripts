@@ -7,6 +7,7 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
         - Ionic CLI
         - Cordova CLI
         - JHipster
+        - Yeoman
 - SDKMAN
     - Oracle JDK 17
 - PYENV
@@ -44,6 +45,9 @@ https://github.com/apache/cordova-cli#Installation
 
 #### JHipster
 https://www.jhipster.tech/installation
+
+#### Yeoman
+https://yeoman.io/
 
 ## SDKMAN
 https://sdkman.io/

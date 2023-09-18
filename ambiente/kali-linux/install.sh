@@ -42,7 +42,7 @@ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 
 source ~/.bashrc
-source ~/.zsh
+source ~/.zshrc
 
 pyenv install 3
 pyenv global 3
@@ -50,7 +50,7 @@ sdk install java 17.0.8-oracle
 nvm install 16
 
 source ~/.bashrc
-source ~/.zsh
+source ~/.zshrc
 
 npm install -g @angular/cli
 npm install -g @ionic/cli

@@ -1,12 +1,9 @@
 #!/bin/bash
 
-nvm install 16
 pyenv install 3
 pyenv global 3
 sdk install java 17.0.8-oracle
+nvm install 16
 
-npm install -g @angular/cli
-npm install -g @ionic/cli
-npm install -g cordova
-npm install -g generator-jhipster
-npm install -g yo
+echo 'Feche e reabra o terminal e execute o passo 3:'
+echo 'curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/passo-3.sh | bash'

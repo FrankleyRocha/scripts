@@ -1,5 +1,17 @@
 # Script de instalação de ambiente de desenvolvimento:
 
+Este script visa automatizar a instalação dos seguintes pacotes/softwares:
+- NVM
+    - NodeJS 16
+        - Angular CLI
+        - Ionic CLI
+        - Cordova CLI
+        - JHipster
+- SDKMAN
+    - Oracle JDK 17
+- PYENV
+    - Python 3
+
 ## PARA INSTALAR EXECUTE:
 
 ````bash

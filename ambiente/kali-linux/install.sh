@@ -50,6 +50,10 @@ curl https://pyenv.run | bash
     #source ~/.bashrc
 #fi
 
+if [ $SHELL = "/usr/bin/zsh" ]; then
+    source ~/.zshrc
+fi
+
 source ~/.bashrc
 
 pyenv install 3
@@ -57,11 +61,11 @@ pyenv global 3
 sdk install java 17.0.8-oracle
 nvm install 16
 
-#if [ $SHELL = "/usr/bin/zsh" ]; then
-    #source ~/.zshrc
-#else
-    source ~/.bashrc
-#fi
+if [ $SHELL = "/usr/bin/zsh" ]; then
+    source ~/.zshrc
+fi
+
+source ~/.bashrc
 
 npm install -g @angular/cli
 npm install -g @ionic/cli

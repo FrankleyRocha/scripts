@@ -31,32 +31,37 @@ curl -s "https://get.sdkman.io" | bash
 
 curl https://pyenv.run | bash
 
-if [ $SHELL = "/usr/bin/zsh" ]; then
+#if [ $SHELL = "/usr/bin/zsh" ]; then
+    
+    echo '' >> ~/.zshrc
     echo '#PYENV' >> ~/.zshrc
     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
     echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
     echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 
-    source ~/.zshrc
-else
+    #source ~/.zshrc
+#else
+    echo '' >> ~/.bashrc
     echo '#PYENV' >> ~/.bashrc
     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
     echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
-    source ~/.bashrc
-fi
+    #source ~/.bashrc
+#fi
+
+source ~/.bashrc
 
 pyenv install 3
 pyenv global 3
 sdk install java 17.0.8-oracle
 nvm install 16
 
-if [ $SHELL = "/usr/bin/zsh" ]; then
-    source ~/.zshrc
-else
+#if [ $SHELL = "/usr/bin/zsh" ]; then
+    #source ~/.zshrc
+#else
     source ~/.bashrc
-fi
+#fi
 
 npm install -g @angular/cli
 npm install -g @ionic/cli

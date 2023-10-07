@@ -31,7 +31,7 @@ curl -s "https://get.sdkman.io" | bash
 
 curl https://pyenv.run | bash
 
-if [ $SHELL = "/bin/zsh" ]; then
+if [ $SHELL = "/usr/bin/zsh" ]; then
     echo '#PYENV' >> ~/.zshrc
     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
     echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
@@ -52,7 +52,7 @@ pyenv global 3
 sdk install java 17.0.8-oracle
 nvm install 16
 
-if [ $SHELL = "/bin/zsh" ]; then
+if [ $SHELL = "/usr/bin/zsh" ]; then
     source ~/.zshrc
 else
     source ~/.bashrc

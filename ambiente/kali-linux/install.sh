@@ -51,6 +51,7 @@ curl https://pyenv.run | bash
 #fi
 
 if [ $SHELL = "/usr/bin/zsh" ]; then
+    echo 'carregando ~/.zshrc'
     source ~/.zshrc
 fi
 

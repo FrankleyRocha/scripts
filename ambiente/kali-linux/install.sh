@@ -23,6 +23,7 @@ sudo apt install -y \
     liblzma-dev \
     python-tk \
     python3-tk tk-dev \
+    libswt-gtk-4-java \
     ttf-mscorefonts-installer
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash

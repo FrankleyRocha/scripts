@@ -65,5 +65,5 @@ source ~/.bashrc
 npm install -g @angular/cli
 npm install -g @ionic/cli
 npm install -g cordova
-npm install -g generator-jhipster
+npm install -g generator-jhipster@7
 npm install -g yo

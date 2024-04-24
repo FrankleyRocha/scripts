@@ -16,7 +16,7 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 PARA INSTALAR EXECUTE:
 
 ````bash
-sudo apt update && sudo apt install -y curl
+sudo apt update && sudo apt install -y curl zip unzip
 ````
 
 ````bash

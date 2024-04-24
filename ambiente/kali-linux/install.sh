@@ -53,8 +53,8 @@ source ~/.bashrc
 
 pyenv install 3
 pyenv global 3
-sdk install java 17.0.8-oracle
-nvm install 16
+sdk install java 17.0.11-tem
+nvm install 18
 
 if [ $SHELL = "/usr/bin/zsh" ]; then
     source ~/.zshrc
@@ -65,5 +65,5 @@ source ~/.bashrc
 npm install -g @angular/cli
 npm install -g @ionic/cli
 npm install -g cordova
-npm install -g generator-jhipster@7
+npm install -g generator-jhipster
 npm install -g yo

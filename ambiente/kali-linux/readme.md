@@ -30,7 +30,7 @@ curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-
 ## NVM
 https://github.com/nvm-sh/nvm#Intro
 
-### NODEJS 16
+### NODEJS 18
 https://nodejs.org
 
 #### Angular CLI

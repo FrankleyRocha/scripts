@@ -52,7 +52,7 @@ https://yeoman.io/
 https://sdkman.io/
 
 ### Temurin JDK17
-[https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html](https://adoptium.net/temurin/releases/)
+[https://adoptium.net/temurin/releases/](https://adoptium.net/temurin/releases/)
 
 ## PYENV
 https://github.com/pyenv/pyenv#Installation

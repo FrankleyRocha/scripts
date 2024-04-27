@@ -2,14 +2,14 @@
 
 Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 - NVM
-    - NodeJS 16
+    - NodeJS 18
         - Angular CLI
         - Ionic CLI
         - Cordova CLI
         - JHipster
         - Yeoman
 - SDKMAN
-    - Oracle JDK 17
+    - Temurin JDK 17
 - PYENV
     - Python 3
 
@@ -51,8 +51,8 @@ https://yeoman.io/
 ## SDKMAN
 https://sdkman.io/
 
-### Oracle JDK17
-https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+### Temurin JDK17
+[https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html](https://adoptium.net/temurin/releases/)
 
 ## PYENV
 https://github.com/pyenv/pyenv#Installation

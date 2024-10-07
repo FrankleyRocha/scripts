@@ -21,9 +21,9 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/install.sh | bash -il
 ````
 
-# PACOTES INDIVIDUAL:
+# PACOTES INDIVIDUAIS:
 
-* Caso queira instalar individualmente, execute:
+* Caso queira instalar os pacotes individualmente, execute:
 
 ## Pacotes básicos do APT
 ````bash

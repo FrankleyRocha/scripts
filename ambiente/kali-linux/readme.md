@@ -18,6 +18,10 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 * Caso queira instalar todos os pacotes de uma só vez, execute:
 
 ````bash
+sudo apt install -y curl zip unzip
+````
+
+````bash
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/install.sh | bash -il
 ````
 
@@ -26,6 +30,11 @@ curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-
 * Caso queira instalar os pacotes individualmente, execute:
 
 ## Pacotes básicos do APT
+
+````bash
+sudo apt install -y curl zip unzip
+````
+
 ````bash
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/pacotes.sh | bash -il
 ````

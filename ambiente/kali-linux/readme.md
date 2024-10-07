@@ -13,14 +13,51 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 - PYENV
     - Python 3
 
-PARA INSTALAR EXECUTE:
+# TODOS OS PACOTES
 
-````bash
-sudo apt update && sudo apt install -y curl zip unzip
-````
+* Caso queira instalar todos os pacotes de uma só vez, execute:
 
 ````bash
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/install.sh | bash -il
+````
+
+# PACOTES INDIVIDUAL:
+
+* Caso queira instalar individualmente, execute:
+
+## Pacotes básicos do APT
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/pacotes.sh | bash -il
+````
+
+## JAVA, com SDKMAN, versão Temurin JDK17
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/java.sh | bash -il
+````
+
+## PYTHON, com PYENV, versão 3
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/java.sh | bash -il
+````
+
+## NODE, com NVM, versão 18
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/node.sh | bash -il
+````
+
+## ANGULAR
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/angular.sh | bash -il
+````
+
+## IONIC
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/ionic.sh | bash -il
+````
+
+## JHIPSTER
+````bash
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/jhipster.sh | bash -il
 ````
 
 * Testado com Kali Linux, possivelmente compativel com sistemas debian like

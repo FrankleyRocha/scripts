@@ -46,7 +46,7 @@ curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-
 
 ## PYTHON, com PYENV, versão 3
 ````bash
-curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/java.sh | bash -il
+curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/python.sh | bash -il
 ````
 
 ## NODE, com NVM, versão 18

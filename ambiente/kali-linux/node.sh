@@ -10,4 +10,5 @@ else
     source ~/.bashrc
 fi
 
-nvm install 18
+nvm install 22
+nvm alias default 22

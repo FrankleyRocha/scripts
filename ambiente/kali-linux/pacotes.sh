@@ -20,8 +20,7 @@ sudo apt install -y \
     libffi-dev \
     libbz2-dev \
     libsqlite3-dev \
-    liblzma-dev \
-    #python-tk \
+    liblzma-dev \    
     python3-tk tk-dev \
     libswt-gtk-4-java
 

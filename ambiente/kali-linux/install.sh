@@ -27,7 +27,7 @@ sudo apt install -y \
 
 sudo usermod -aG docker $USER
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 
 curl -s "https://get.sdkman.io" | bash
 

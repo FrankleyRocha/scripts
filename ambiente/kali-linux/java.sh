@@ -10,4 +10,4 @@ else
     source ~/.bashrc
 fi
 
-sdk install java 17.0.11-tem
+sdk install java 21.0.6-tem

@@ -11,3 +11,4 @@ else
 fi
 
 sdk install java 21.0.6-tem
+sdk install maven

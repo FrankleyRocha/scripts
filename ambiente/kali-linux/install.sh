@@ -12,7 +12,7 @@ sudo apt install -y \
     docker.io \
     docker-compose-v2 \
     zlib1g-dev \
-    libncurses5-dev \
+    libncurses-dev \
     libgdbm-dev \
     libnss3-dev \
     libssl-dev \

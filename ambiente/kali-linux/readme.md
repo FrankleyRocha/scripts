@@ -9,7 +9,7 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
         - JHipster
         - Yeoman
 - SDKMAN
-    - Temurin JDK 17
+    - Temurin JDK 21
 - PYENV
     - Python 3
 
@@ -39,7 +39,7 @@ sudo apt install -y curl zip unzip
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/pacotes.sh | bash -il
 ````
 
-## JAVA, com SDKMAN, versão Temurin JDK17
+## JAVA, com SDKMAN, versão Temurin JDK21
 ````bash
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/java.sh | bash -il
 ````

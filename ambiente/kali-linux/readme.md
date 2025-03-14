@@ -2,7 +2,7 @@
 
 Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 - NVM
-    - NodeJS 18
+    - NodeJS 22
         - Angular CLI
         - Ionic CLI
         - Cordova CLI

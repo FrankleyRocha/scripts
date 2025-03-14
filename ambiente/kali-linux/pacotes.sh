@@ -21,7 +21,7 @@ sudo apt install -y \
     libbz2-dev \
     libsqlite3-dev \
     liblzma-dev \
-    python-tk \
+    #python-tk \
     python3-tk tk-dev \
     libswt-gtk-4-java
 

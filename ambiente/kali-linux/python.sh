@@ -26,5 +26,5 @@ else
     
 fi
 
-pyenv install 3.11
-pyenv global 3.11
+pyenv install 3
+pyenv global 3

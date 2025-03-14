@@ -18,7 +18,7 @@ Este script visa automatizar a instalação dos seguintes pacotes/softwares:
 * Caso queira instalar todos os pacotes de uma só vez, execute:
 
 ````bash
-sudo apt install -y curl zip unzip
+sudo apt update && sudo apt install -y curl zip unzip
 ````
 
 ````bash

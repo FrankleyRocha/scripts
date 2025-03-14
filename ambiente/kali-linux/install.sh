@@ -10,7 +10,7 @@ sudo apt install -y \
     git \
     build-essential \
     docker.io \
-    docker-compose \
+    docker-compose-v2 \
     zlib1g-dev \
     libncurses5-dev \
     libgdbm-dev \
@@ -24,6 +24,8 @@ sudo apt install -y \
     python-tk \
     python3-tk tk-dev \
     libswt-gtk-4-java
+
+sudo usermod -aG docker $USER
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 

@@ -49,7 +49,7 @@ curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/python.sh | bash -il
 ````
 
-## NODE, com NVM, versão 18
+## NODE, com NVM, versão 22
 ````bash
 curl https://raw.githubusercontent.com/FrankleyRocha/scripts/main/ambiente/kali-linux/node.sh | bash -il
 ````

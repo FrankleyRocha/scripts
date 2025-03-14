@@ -54,6 +54,7 @@ source ~/.bashrc
 pyenv install 3
 pyenv global 3
 sdk install java 21.0.6-tem
+sdk install maven
 nvm install 22
 nvm alias default 22
 

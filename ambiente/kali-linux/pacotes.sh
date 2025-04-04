@@ -8,9 +8,7 @@ sudo apt install -y \
     wget \
     curl \
     git \
-    build-essential \
-    docker.io \
-    docker-compose-v2 \
+    build-essential \    
     zlib1g-dev \
     libncurses-dev \
     libgdbm-dev \

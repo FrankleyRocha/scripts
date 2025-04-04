@@ -8,7 +8,7 @@ sudo apt install -y \
     wget \
     curl \
     git \
-    build-essential \    
+    build-essential \
     zlib1g-dev \
     libncurses-dev \
     libgdbm-dev \

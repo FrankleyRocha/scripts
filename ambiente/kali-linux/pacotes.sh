@@ -21,5 +21,3 @@ sudo apt install -y \
     liblzma-dev \
     python3-tk tk-dev \
     libswt-gtk-4-java
-
-sudo usermod -aG docker $USER

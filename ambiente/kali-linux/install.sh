@@ -22,8 +22,6 @@ sudo apt install -y \
     python3-tk tk-dev \
     libswt-gtk-4-java
 
-sudo usermod -aG docker $USER
-
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 
 curl -s "https://get.sdkman.io" | bash
